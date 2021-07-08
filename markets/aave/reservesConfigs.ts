@@ -358,3 +358,20 @@ export const strategyXSUSHI: IReserveParams = {
   aTokenImpl: eContractid.AToken,
   reserveFactor: '3500',
 };
+
+export const strategyDPI: IReserveParams = {
+  optimalUtilizationRate: new BigNumber(0.50).multipliedBy(oneRay).toFixed(),
+  baseVariableBorrowRate: '0',
+  variableRateSlope1: new BigNumber(0.07).multipliedBy(oneRay).toFixed(),
+  variableRateSlope2: new BigNumber(3).multipliedBy(oneRay).toFixed(),
+  stableRateSlope1: '0',
+  stableRateSlope2: '0',
+  baseLTVAsCollateral: '6000',
+  liquidationThreshold: '7000',
+  liquidationBonus: '11000',
+  borrowingEnabled: true,
+  stableBorrowRateEnabled: false,
+  reserveDecimals: '18',
+  aTokenImpl: eContractid.AToken,
+  reserveFactor: '2000',
+}

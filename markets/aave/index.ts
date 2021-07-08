@@ -23,6 +23,7 @@ import {
   strategyWETH,
   strategyYFI,
   strategyXSUSHI,
+  strategyDPI,
 } from './reservesConfigs';
 
 // ----------------
@@ -55,6 +56,7 @@ export const AaveConfig: IAaveConfiguration = {
     YFI: strategyYFI,
     ZRX: strategyZRX,
     xSUSHI: strategyXSUSHI,
+    DPI: strategyDPI,
   },
   ReserveAssets: {
     [eEthereumNetwork.buidlerevm]: {},
@@ -65,6 +67,7 @@ export const AaveConfig: IAaveConfiguration = {
       BAT: '0x2d12186Fbb9f9a8C28B3FfdD4c42920f8539D738',
       BUSD: '0x4c6E1EFC12FDfD568186b7BAEc0A43fFfb4bCcCf',
       DAI: '0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD',
+      DPI: '0x58F4e1E959CDaebb41648354AC8a50B45f9aB4b9',
       ENJ: '0xC64f90Cd7B564D3ab580eb20a102A8238E218be2',
       KNC: '0x3F80c39c0b96A0945f9F0E9f55d8A8891c5671A8',
       LINK: '0xAD5ce863aE3E4E9394Ab43d4ba0D80f419F61789',
@@ -87,6 +90,7 @@ export const AaveConfig: IAaveConfiguration = {
       BAT: '0x85B24b3517E3aC7bf72a14516160541A60cFF19d',
       BUSD: '0xFA6adcFf6A90c11f31Bc9bb59eC0a6efB38381C6',
       DAI: '0xf80A32A835F79D7787E8a8ee5721D0fEaFd78108',
+      DPI: ZERO_ADDRESS,
       ENJ: ZERO_ADDRESS,
       KNC: '0xCe4aA1dE3091033Ba74FA2Ad951f6adc5E5cF361',
       LINK: '0x1a906E71FF9e28d8E01460639EB8CF0a6f0e2486',
@@ -109,6 +113,7 @@ export const AaveConfig: IAaveConfiguration = {
       BAT: '0x0d8775f648430679a709e98d2b0cb6250d2887ef',
       BUSD: '0x4Fabb145d64652a948d72533023f6E7A623C7C53',
       DAI: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
+      DPI: '0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b',
       ENJ: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c',
       KNC: '0xdd974D5C2e2928deA5F71b9825b8b646686BD200',
       LINK: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
@@ -132,6 +137,7 @@ export const AaveConfig: IAaveConfiguration = {
       BAT: '0x0d8775f648430679a709e98d2b0cb6250d2887ef',
       BUSD: '0x4Fabb145d64652a948d72533023f6E7A623C7C53',
       DAI: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
+      DPI: '0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b',
       ENJ: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c',
       KNC: '0xdd974D5C2e2928deA5F71b9825b8b646686BD200',
       LINK: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
